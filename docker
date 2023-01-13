@@ -1,0 +1,38 @@
+- runtime allows to start as well as stop the containers. It is of 2 types runc and containerd 
+runc works with the operating system (starts and stops the containers)
+containerd role's is to manage runc or managing or pulling data from internet.Connecting with the network.
+
+-Docker Engine is used to interact with docker.
+example-Daemon
+
+docker cli(client)
+   |
+rest api
+   |
+server daemon(server)
+
+
+Orchestration -It allows us to manage containers
+image contains instructions ,required data and other requirements that once started builds and execute the process. 
+container is running instance of an image.
+docker file-> image -> container
+docker file contains a list of instructions.
+
+commands
+- to run ubuntu (-it means interactive enviornment)
+docker run -it ubuntu
+                 |
+               image name
+-To see all the runnning containers
+docker ps
+-to exit or quit running particular image
+exit
+
+if docker does not find any image locally so it downloads that image from docker hub
+
+
+
+
+
+
+
