@@ -30,7 +30,30 @@ exit
 
 if docker does not find any image locally so it downloads that image from docker hub
 
+registry is the online repository
+container runs inside docker, where docker is a tool 
+containers are isolated enviornment in which you can run your applications
 
+directly download images -> docker pull image_name
+example-docker pull ubuntu:20.04
+
+To show all the containers available right now 
+command -
+docker container ls 
+
+
+To stop docker container
+docker ps
+then copy the id
+then 
+docker stop id
+
+
+docker ps -a 
+to show all stopped containers
+
+To get all information about the container
+example -> docker inspect ubuntu
 
 
 
